@@ -42,3 +42,12 @@
 .res_star > img {
   width: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .res_rating {
+    display: none;
+  }
+  .res_score {
+    width: 100%;
+  }
+}

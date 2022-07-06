@@ -145,3 +145,24 @@
   margin: auto;
   color: #dae2e8;
 }
+
+.searchbar_mobile > .search-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .searchbar {
+    display: none;
+  }
+
+  .searchbar_mobile > .search-icon {
+    display: block;
+    height: 100%;
+    padding-right: 20px;
+    font-size: 24px;
+    color: #dae2e8;
+  }
+  .nav-menu {
+    width: 100%;
+  }
+}

@@ -23,13 +23,16 @@ const Navbar = () => {
                 <div className="header">
                     <div className="logo">
                         <Link to="/">
-                            <img src={Logo} />
+                            <img src={Logo} alt="logo" />
                         </Link>
 
                     </div>
                     <div className="right-content">
                         <div className="searchbar">
-                            <input type="text" placeholder='Search among 288 tests...' />
+                            <input className='searchbar_input' type="text" placeholder='Search among 288 tests...' />
+                            <FaIcons.FaSearch className='search-icon' />
+                        </div>
+                        <div className="searchbar_mobile">
                             <FaIcons.FaSearch className='search-icon' />
                         </div>
                         <div className="user">

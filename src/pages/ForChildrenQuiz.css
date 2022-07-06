@@ -75,3 +75,12 @@
 .fcq_result {
   margin: 50px 60px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .fcq_question_text {
+    padding: 0 50px;
+  }
+  .fcq_question_options {
+    width: 90%;
+  }
+}
