@@ -1,0 +1,44 @@
+.res_container {
+  width: 100%;
+  display: flex;
+}
+.res_score {
+  width: 60%;
+}
+.res_rating {
+  width: 40%;
+}
+
+.res_go_back {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  margin-top: 40px;
+  color: #00a1eb;
+}
+
+.res_go_back > a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #00a1eb;
+  margin-top: 2px;
+}
+
+.res_social_icons {
+  display: flex;
+  gap: 10px;
+}
+
+.res_social_icon > img {
+  width: 30px;
+}
+
+.res_rating {
+  margin: 16px 0 0 50px;
+}
+.res_star {
+}
+.res_star > img {
+  width: 30px;
+}
